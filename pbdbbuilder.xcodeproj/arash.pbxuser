@@ -73,6 +73,9 @@
 			5B550DE10F6470A800A85F06 /* PBXTextBookmark */ = 5B550DE10F6470A800A85F06 /* PBXTextBookmark */;
 			5B550DE20F6470A800A85F06 /* PBXTextBookmark */ = 5B550DE20F6470A800A85F06 /* PBXTextBookmark */;
 			5B550DE30F6470A800A85F06 /* PBXTextBookmark */ = 5B550DE30F6470A800A85F06 /* PBXTextBookmark */;
+			5B550DE40F64732300A85F06 /* PBXTextBookmark */ = 5B550DE40F64732300A85F06 /* PBXTextBookmark */;
+			5B550DE50F64732300A85F06 /* PBXTextBookmark */ = 5B550DE50F64732300A85F06 /* PBXTextBookmark */;
+			5B550DE60F64732300A85F06 /* PBXTextBookmark */ = 5B550DE60F64732300A85F06 /* PBXTextBookmark */;
 			5BF9E8E80F63C5CF003B04B0 = 5BF9E8E80F63C5CF003B04B0 /* PBXTextBookmark */;
 			5BF9E8EC0F63C5CF003B04B0 = 5BF9E8EC0F63C5CF003B04B0 /* PBXTextBookmark */;
 			5BF9E8ED0F63C5CF003B04B0 = 5BF9E8ED0F63C5CF003B04B0 /* PBXTextBookmark */;
@@ -182,8 +185,8 @@
 	2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1500, 5138}}";
-			sepNavSelRange = "{181, 0}";
-			sepNavVisRange = "{0, 1726}";
+			sepNavSelRange = "{168, 0}";
+			sepNavVisRange = "{0, 1713}";
 		};
 	};
 	2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */ = {
@@ -198,7 +201,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 150";
 		rLen = 0;
-		rLoc = 6059;
+		rLoc = 6046;
 		rType = 0;
 		vrLen = 1699;
 		vrLoc = 10710;
@@ -228,7 +231,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 7";
 		rLen = 0;
-		rLoc = 181;
+		rLoc = 168;
 		rType = 0;
 		vrLen = 1726;
 		vrLoc = 0;
@@ -244,6 +247,36 @@
 		vrLoc = 3464;
 	};
 	5B550DE30F6470A800A85F06 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5BF9E9F80F646F02003B04B0 /* MyDocument.m */;
+		name = "MyDocument.m: 557";
+		rLen = 0;
+		rLoc = 21053;
+		rType = 0;
+		vrLen = 1529;
+		vrLoc = 17907;
+	};
+	5B550DE40F64732300A85F06 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
+		name = "MyDocument.m: 7";
+		rLen = 0;
+		rLoc = 168;
+		rType = 0;
+		vrLen = 1713;
+		vrLoc = 0;
+	};
+	5B550DE50F64732300A85F06 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5BF9E9E50F646356003B04B0 /* Prayer.m */;
+		name = "Prayer.m: 19";
+		rLen = 0;
+		rLoc = 263;
+		rType = 0;
+		vrLen = 1454;
+		vrLoc = 3464;
+	};
+	5B550DE60F64732300A85F06 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 5BF9E9F80F646F02003B04B0 /* MyDocument.m */;
 		name = "MyDocument.m: 557";
@@ -343,7 +376,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 10";
 		rLen = 0;
-		rLoc = 206;
+		rLoc = 193;
 		rType = 0;
 		vrLen = 2412;
 		vrLoc = 3256;
@@ -380,7 +413,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 10";
 		rLen = 0;
-		rLoc = 206;
+		rLoc = 193;
 		rType = 0;
 		vrLen = 1437;
 		vrLoc = 0;
@@ -461,7 +494,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 166";
 		rLen = 0;
-		rLoc = 6646;
+		rLoc = 6633;
 		rType = 0;
 		vrLen = 2501;
 		vrLoc = 5694;
@@ -481,7 +514,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 178";
 		rLen = 0;
-		rLoc = 7355;
+		rLoc = 7342;
 		rType = 0;
 		vrLen = 906;
 		vrLoc = 0;
@@ -671,7 +704,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 178";
 		rLen = 0;
-		rLoc = 7355;
+		rLoc = 7342;
 		rType = 0;
 		vrLen = 1845;
 		vrLoc = 6213;
@@ -691,7 +724,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 138";
 		rLen = 0;
-		rLoc = 5680;
+		rLoc = 5667;
 		rType = 0;
 		vrLen = 2588;
 		vrLoc = 3900;
@@ -711,7 +744,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 195";
 		rLen = 0;
-		rLoc = 10215;
+		rLoc = 10202;
 		rType = 0;
 		vrLen = 2490;
 		vrLoc = 5694;
@@ -731,7 +764,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 200";
 		rLen = 0;
-		rLoc = 10215;
+		rLoc = 10202;
 		rType = 0;
 		vrLen = 2393;
 		vrLoc = 5977;
@@ -751,7 +784,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 205";
 		rLen = 0;
-		rLoc = 10215;
+		rLoc = 10202;
 		rType = 0;
 		vrLen = 2372;
 		vrLoc = 6213;
@@ -771,7 +804,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 205";
 		rLen = 0;
-		rLoc = 10215;
+		rLoc = 10202;
 		rType = 0;
 		vrLen = 2372;
 		vrLoc = 6213;
@@ -791,7 +824,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 195";
 		rLen = 0;
-		rLoc = 9610;
+		rLoc = 9597;
 		rType = 0;
 		vrLen = 2389;
 		vrLoc = 6213;
@@ -811,7 +844,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 195";
 		rLen = 0;
-		rLoc = 9610;
+		rLoc = 9597;
 		rType = 0;
 		vrLen = 2389;
 		vrLoc = 6213;
@@ -831,7 +864,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 195";
 		rLen = 0;
-		rLoc = 9610;
+		rLoc = 9597;
 		rType = 0;
 		vrLen = 2389;
 		vrLoc = 6213;
@@ -851,7 +884,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 193";
 		rLen = 0;
-		rLoc = 8134;
+		rLoc = 8121;
 		rType = 0;
 		vrLen = 2304;
 		vrLoc = 6213;
@@ -871,7 +904,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 193";
 		rLen = 0;
-		rLoc = 8134;
+		rLoc = 8121;
 		rType = 0;
 		vrLen = 2316;
 		vrLoc = 6213;
@@ -891,7 +924,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 193";
 		rLen = 0;
-		rLoc = 8134;
+		rLoc = 8121;
 		rType = 0;
 		vrLen = 2316;
 		vrLoc = 6213;
@@ -911,7 +944,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 193";
 		rLen = 0;
-		rLoc = 8134;
+		rLoc = 8121;
 		rType = 0;
 		vrLen = 2316;
 		vrLoc = 6213;
@@ -931,7 +964,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 196";
 		rLen = 0;
-		rLoc = 9498;
+		rLoc = 9485;
 		rType = 0;
 		vrLen = 2296;
 		vrLoc = 6213;
@@ -951,7 +984,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 193";
 		rLen = 0;
-		rLoc = 9339;
+		rLoc = 9326;
 		rType = 0;
 		vrLen = 2252;
 		vrLoc = 6213;
@@ -971,7 +1004,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 196";
 		rLen = 0;
-		rLoc = 9337;
+		rLoc = 9324;
 		rType = 0;
 		vrLen = 2303;
 		vrLoc = 6213;
@@ -991,7 +1024,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 193";
 		rLen = 0;
-		rLoc = 9161;
+		rLoc = 9148;
 		rType = 0;
 		vrLen = 2243;
 		vrLoc = 6213;
@@ -1011,7 +1044,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 193";
 		rLen = 0;
-		rLoc = 9161;
+		rLoc = 9148;
 		rType = 0;
 		vrLen = 2243;
 		vrLoc = 6213;
@@ -1031,7 +1064,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 196";
 		rLen = 0;
-		rLoc = 9159;
+		rLoc = 9146;
 		rType = 0;
 		vrLen = 2304;
 		vrLoc = 6213;
@@ -1051,7 +1084,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 208";
 		rLen = 0;
-		rLoc = 9337;
+		rLoc = 9324;
 		rType = 0;
 		vrLen = 2302;
 		vrLoc = 6491;
@@ -1071,7 +1104,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 208";
 		rLen = 0;
-		rLoc = 9337;
+		rLoc = 9324;
 		rType = 0;
 		vrLen = 2302;
 		vrLoc = 6491;
@@ -1091,7 +1124,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 208";
 		rLen = 0;
-		rLoc = 9337;
+		rLoc = 9324;
 		rType = 0;
 		vrLen = 1862;
 		vrLoc = 7132;
@@ -1111,7 +1144,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 208";
 		rLen = 0;
-		rLoc = 9337;
+		rLoc = 9324;
 		rType = 0;
 		vrLen = 1862;
 		vrLoc = 7132;
@@ -1131,7 +1164,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 208";
 		rLen = 0;
-		rLoc = 9337;
+		rLoc = 9324;
 		rType = 0;
 		vrLen = 1862;
 		vrLoc = 7132;
@@ -1151,7 +1184,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 208";
 		rLen = 0;
-		rLoc = 9337;
+		rLoc = 9324;
 		rType = 0;
 		vrLen = 1862;
 		vrLoc = 7132;
@@ -1171,7 +1204,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 193";
 		rLen = 0;
-		rLoc = 8799;
+		rLoc = 8786;
 		rType = 0;
 		vrLen = 1808;
 		vrLoc = 7132;
@@ -1191,7 +1224,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 193";
 		rLen = 0;
-		rLoc = 8799;
+		rLoc = 8786;
 		rType = 0;
 		vrLen = 1820;
 		vrLoc = 7132;
@@ -1211,7 +1244,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 195";
 		rLen = 0;
-		rLoc = 8374;
+		rLoc = 8361;
 		rType = 0;
 		vrLen = 1775;
 		vrLoc = 7132;
@@ -1231,7 +1264,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 288";
 		rLen = 0;
-		rLoc = 10943;
+		rLoc = 10930;
 		rType = 0;
 		vrLen = 1709;
 		vrLoc = 10582;
@@ -1251,7 +1284,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 290";
 		rLen = 0;
-		rLoc = 11065;
+		rLoc = 11052;
 		rType = 0;
 		vrLen = 1638;
 		vrLoc = 10573;
@@ -1271,7 +1304,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 166";
 		rLen = 0;
-		rLoc = 6646;
+		rLoc = 6633;
 		rType = 0;
 		vrLen = 2501;
 		vrLoc = 5694;
@@ -1310,7 +1343,7 @@
 		fRef = 2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */;
 		name = "MyDocument.m: 150";
 		rLen = 0;
-		rLoc = 6059;
+		rLoc = 6046;
 		rType = 0;
 		vrLen = 1699;
 		vrLoc = 10710;
