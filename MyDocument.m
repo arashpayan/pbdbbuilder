@@ -4,7 +4,7 @@
 //
 //  Created by Arash Payan on 3/8/09.
 //  Copyright __MyCompanyName__ 2009 . All rights reserved.
-//
+// This is a comment that I'm adding to test
 
 #import "MyDocument.h"
 
