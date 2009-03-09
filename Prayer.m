@@ -32,7 +32,7 @@
 		self.author = @"";
 		self.text = @"";
 		self.category = @"";
-		self.language = @"en";
+		self.language = @"es";
 		self.prayerId = prayerIdStart++;
 	}
 	
@@ -40,7 +40,7 @@
 }
 
 - (id)initWithId:(long)anId
-		   title:(NSString*)aString
+		   title:(NSString*)aTitle
 		category:(NSString*)aCategory
 		  author:(NSString*)anAuthor
 		language:(NSString*)aLanguage
@@ -55,13 +55,19 @@
 		}
 		self.prayerId = anId;
 		
-		if (category == nil)
+		if (aTitle == nil)
+		{
+			[NSException raise:@"PrayerInputException" format:@"Encountered a nil title (prayer %d)", anId];
+		}
+		self.title = aTitle;
+		
+		if (aCategory == nil)
 		{
 			[NSException raise:@"PrayerInputException" format:@"Encountered a nil category (prayer %d)", anId];
 		}
 		self.category = aCategory;
 		
-		if (author == nil)
+		if (anAuthor == nil)
 		{
 			[NSException raise:@"PrayerInputException" format:@"Encountered a nil author (prayer %d)", anId];
 		}
@@ -73,13 +79,13 @@
 		}
 		self.language = aLanguage;
 		
-		if (citation == nil)
+		if (aCitation == nil)
 		{
 			[NSException raise:@"PrayerInputException" format:@"Encountered a nil citation (prayer %d)", anId];
 		}
 		self.citation = aCitation;
 		
-		if (text == nil)
+		if (aText == nil)
 		{
 			[NSException raise:@"PrayerInputException" format:@"Encountered a nil text (prayer %d)", anId];
 		}

@@ -32,6 +32,8 @@
 	IBOutlet NSTextField *prayerIdTextField;
 	IBOutlet NSButton *addPrayerButton;
 	IBOutlet NSButton *deletePrayerButton;
+	IBOutlet NSButton *formatButton;
+	IBOutlet NSButton *markupButton;
 }
 
 - (IBAction)addPrayer:(id)sender;
@@ -41,5 +43,6 @@
 - (IBAction)authorChanged:(id)sender;
 - (IBAction)citationChanged:(id)sender;
 - (IBAction)titleChanged:(id)sender;
+- (IBAction)markupPrayer:(id)sender;
 
 @end

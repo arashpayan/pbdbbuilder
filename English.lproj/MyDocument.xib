@@ -79,7 +79,7 @@
 											<object class="NSMutableArray" key="NSTableColumns">
 												<bool key="EncodedWithXMLCoder">YES</bool>
 												<object class="NSTableColumn" id="327993969">
-													<double key="NSWidth">1.010000e+02</double>
+													<double key="NSWidth">3.630000e+02</double>
 													<double key="NSMinWidth">4.000000e+01</double>
 													<double key="NSMaxWidth">1.000000e+03</double>
 													<object class="NSTableHeaderCell" key="NSHeaderCell">
@@ -534,30 +534,10 @@
 								<reference key="NSTextColor" ref="18085898"/>
 							</object>
 						</object>
-						<object class="NSButton" id="100428391">
-							<reference key="NSNextResponder" ref="568628114"/>
-							<int key="NSvFlags">271</int>
-							<string key="NSFrame">{{799, 63}, {136, 32}}</string>
-							<reference key="NSSuperview" ref="568628114"/>
-							<bool key="NSEnabled">YES</bool>
-							<object class="NSButtonCell" key="NSCell" id="425228241">
-								<int key="NSCellFlags">67239424</int>
-								<int key="NSCellFlags2">134217728</int>
-								<string key="NSContents">Add Newlines</string>
-								<reference key="NSSupport" ref="622215603"/>
-								<reference key="NSControlView" ref="100428391"/>
-								<int key="NSButtonFlags">-2038284033</int>
-								<int key="NSButtonFlags2">129</int>
-								<string key="NSAlternateContents"/>
-								<string key="NSKeyEquivalent"/>
-								<int key="NSPeriodicDelay">200</int>
-								<int key="NSPeriodicInterval">25</int>
-							</object>
-						</object>
 						<object class="NSButton" id="461503450">
 							<reference key="NSNextResponder" ref="568628114"/>
 							<int key="NSvFlags">269</int>
-							<string key="NSFrame">{{935, 63}, {134, 32}}</string>
+							<string key="NSFrame">{{801, 63}, {134, 32}}</string>
 							<reference key="NSSuperview" ref="568628114"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="845539535">
@@ -1215,6 +1195,22 @@
 					</object>
 					<int key="connectionID">100114</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">markupButton</string>
+						<reference key="source" ref="512844837"/>
+						<reference key="destination" ref="461503450"/>
+					</object>
+					<int key="connectionID">100116</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">markupPrayer:</string>
+						<reference key="source" ref="512844837"/>
+						<reference key="destination" ref="461503450"/>
+					</object>
+					<int key="connectionID">100118</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -1267,10 +1263,9 @@
 							<reference ref="470696543"/>
 							<reference ref="838234387"/>
 							<reference ref="632314818"/>
-							<reference ref="100428391"/>
 							<reference ref="1071377012"/>
-							<reference ref="461503450"/>
 							<reference ref="777529675"/>
+							<reference ref="461503450"/>
 						</object>
 						<reference key="parent" ref="275939982"/>
 					</object>
@@ -1538,20 +1533,6 @@
 						<reference key="parent" ref="877591092"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">100079</int>
-						<reference key="object" ref="100428391"/>
-						<object class="NSMutableArray" key="children">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="425228241"/>
-						</object>
-						<reference key="parent" ref="568628114"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">100080</int>
-						<reference key="object" ref="425228241"/>
-						<reference key="parent" ref="100428391"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">100081</int>
 						<reference key="object" ref="461503450"/>
 						<object class="NSMutableArray" key="children">
@@ -1674,8 +1655,6 @@
 					<string>100074.IBPluginDependency</string>
 					<string>100075.IBPluginDependency</string>
 					<string>100076.IBPluginDependency</string>
-					<string>100079.IBPluginDependency</string>
-					<string>100080.IBPluginDependency</string>
 					<string>100081.IBPluginDependency</string>
 					<string>100082.IBPluginDependency</string>
 					<string>100083.IBPluginDependency</string>
@@ -1699,8 +1678,6 @@
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -1782,7 +1759,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">100114</int>
+			<int key="maxID">100118</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -1800,10 +1777,12 @@
 							<string>citationChanged:</string>
 							<string>deletePrayer:</string>
 							<string>languageChanged:</string>
+							<string>markupPrayer:</string>
 							<string>titleChanged:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -1822,7 +1801,9 @@
 							<string>categoryPopUpButton</string>
 							<string>citationTextField</string>
 							<string>deletePrayerButton</string>
+							<string>formatButton</string>
 							<string>languagePopUpButton</string>
+							<string>markupButton</string>
 							<string>prayerIdTextField</string>
 							<string>prayersTable</string>
 							<string>previewWebView</string>
@@ -1836,7 +1817,9 @@
 							<string>NSPopUpButton</string>
 							<string>NSTextField</string>
 							<string>NSButton</string>
+							<string>NSButton</string>
 							<string>NSPopUpButton</string>
+							<string>NSButton</string>
 							<string>NSTextField</string>
 							<string>NSTableView</string>
 							<string>WebView</string>

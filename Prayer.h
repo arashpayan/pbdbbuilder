@@ -27,5 +27,12 @@
 @property(nonatomic, copy) NSString *language;
 @property(nonatomic) long prayerId;
 
+- (id)initWithId:(long)anId
+		   title:(NSString*)aString
+		category:(NSString*)aCategory
+		  author:(NSString*)anAuthor
+		language:(NSString*)aLanguage
+		citation:(NSString*)aCitation
+			text:(NSString*)aText;
 
 @end
