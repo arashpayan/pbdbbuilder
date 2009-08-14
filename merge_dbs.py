@@ -1,27 +1,95 @@
 import sqlite3
+import re
+import string
 
 # open up the english db
-english_conn = sqlite3.connect('pbdb_converted.db')
+english_conn = sqlite3.connect('english.db')
 english_cur = english_conn.cursor()
 
 # open up the espanol db
-espanol_conn = sqlite3.connect('espanol_converted.db')
+espanol_conn = sqlite3.connect('espanol.db')
 espanol_cur = espanol_conn.cursor()
 
+# open up the francais db
+francais_conn = sqlite3.connect('francais.db')
+francais_cur = francais_conn.cursor()
+
 # create the merged db
-merged_conn = sqlite3.connect('merged_db.db')
+merged_conn = sqlite3.connect('merged.db')
 merged_cur = merged_conn.cursor()
 merged_cur.execute('CREATE TABLE prayers (id INTEGER PRIMARY KEY, category TEXT NOT NULL, prayerText TEXT NOT NULL, openingWords TEXT NOT NULL, citation TEXT NOT NULL, author TEXT NOT NULL, language TEXT NOT NULL, wordCount INTEGER NOT NULL, searchText TEXT NOT NULL)')
 
 # harvest the data from the english dictionary
 rows = english_cur.execute('SELECT * FROM prayers')
+wsPattern = re.compile(" *")
 for row in rows:
-    merged_conn.execute('INSERT INTO prayers (id, category, prayerText, openingWords, citation, author, language, wordCount, searchText) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)', row)
+    prayerText = row[2]
+    prayerText = string.replace(prayerText, '<p>', '')
+    prayerText = string.replace(prayerText, '</p>', '')
+    prayerText = string.replace(prayerText, '<p class="opening">', '')
+    prayerText = string.replace(prayerText, '<span class="versal">', '')
+    prayerText = string.replace(prayerText, '</span>', '')
+    prayerText = string.replace(prayerText, '<p class="noindent">', '')
+    prayerText = string.replace(prayerText, '<br/', '')
+    prayerText = string.replace(prayerText, '<i>', '')
+    prayerText = string.replace(prayerText, '</i>', '')
+    prayerText = string.replace(prayerText, '<p class="comment">', '')
+    prayerText = string.replace(prayerText, '<p class="commentcaps">', '')
+    prayerText = string.replace(prayerText, '<em>', '')
+    prayerText = string.replace(prayerText, '</em>', '')
+    prayerWords = wsPattern.split(prayerText)
+    rowList = list(row)
+    rowList.append(len(prayerWords))
+    rowList.append(prayerText)
+    merged_conn.execute('INSERT INTO prayers (id, category, prayerText, openingWords, citation, author, language, wordCount, searchText) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)', rowList)
 
-# harvest the data from the spanish dictionary
+english_conn.close()
+
 rows = espanol_cur.execute('SELECT * FROM prayers')
 for row in rows:
-    merged_conn.execute('INSERT INTO prayers (id, category, prayerText, openingWords, citation, author, language, wordCount, searchText) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)', row)
-    
-merged_cur.commit()
+    prayerText = row[2]
+    prayerText = string.replace(prayerText, '<p>', '')
+    prayerText = string.replace(prayerText, '</p>', '')
+    prayerText = string.replace(prayerText, '<p class="opening">', '')
+    prayerText = string.replace(prayerText, '<span class="versal">', '')
+    prayerText = string.replace(prayerText, '</span>', '')
+    prayerText = string.replace(prayerText, '<p class="noindent">', '')
+    prayerText = string.replace(prayerText, '<br/', '')
+    prayerText = string.replace(prayerText, '<i>', '')
+    prayerText = string.replace(prayerText, '</i>', '')
+    prayerText = string.replace(prayerText, '<p class="comment">', '')
+    prayerText = string.replace(prayerText, '<p class="commentcaps">', '')
+    prayerText = string.replace(prayerText, '<em>', '')
+    prayerText = string.replace(prayerText, '</em>', '')
+    prayerWords = wsPattern.split(prayerText)
+    rowList = list(row)
+    rowList.append(len(prayerWords))
+    rowList.append(prayerText)
+    merged_conn.execute('INSERT INTO prayers (id, category, prayerText, openingWords, citation, author, language, wordCount, searchText) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)', rowList)
+
+espanol_conn.close()
+
+rows = francais_cur.execute('SELECT * FROM prayers')
+for row in rows:
+    prayerText = row[2]
+    prayerText = string.replace(prayerText, '<p>', '')
+    prayerText = string.replace(prayerText, '</p>', '')
+    prayerText = string.replace(prayerText, '<p class="opening">', '')
+    prayerText = string.replace(prayerText, '<span class="versal">', '')
+    prayerText = string.replace(prayerText, '</span>', '')
+    prayerText = string.replace(prayerText, '<p class="noindent">', '')
+    prayerText = string.replace(prayerText, '<br/', '')
+    prayerText = string.replace(prayerText, '<i>', '')
+    prayerText = string.replace(prayerText, '</i>', '')
+    prayerText = string.replace(prayerText, '<p class="comment">', '')
+    prayerText = string.replace(prayerText, '<p class="commentcaps">', '')
+    prayerText = string.replace(prayerText, '<em>', '')
+    prayerText = string.replace(prayerText, '</em>', '')
+    prayerWords = wsPattern.split(prayerText)
+    rowList = list(row)
+    rowList.append(len(prayerWords))
+    rowList.append(prayerText)
+    merged_conn.execute('INSERT INTO prayers (id, category, prayerText, openingWords, citation, author, language, wordCount, searchText) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)', rowList)
+
+merged_conn.commit()
 merged_conn.close()

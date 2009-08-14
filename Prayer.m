@@ -32,7 +32,7 @@
 		self.author = @"";
 		self.text = @"";
 		self.category = @"";
-		self.language = @"es";
+		self.language = @"fr";
 		self.prayerId = prayerIdStart++;
 	}
 	
