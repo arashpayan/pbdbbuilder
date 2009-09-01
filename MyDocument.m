@@ -23,51 +23,51 @@
 		
 		// English categories
 		[categories addObject:@""];
-		//[categories addObject:@"Uncategorized"];
-//		[categories addObject:@"Aid and Assistance"];
-//		[categories addObject:@"America"];
-//		[categories addObject:@"Children"];
-//		[categories addObject:@"The Departed"];
-//		[categories addObject:@"Detachment"];
-//		[categories addObject:@"Divine Springtime"];
-//		[categories addObject:@"Evening"];
-//		[categories addObject:@"Expectant Mothers"];
-//		[categories addObject:@"Families"];
-//		[categories addObject:@"The Fast"];
-//		[categories addObject:@"Firmness in the Covenant"];
-//		[categories addObject:@"Forgiveness"];
-//		[categories addObject:@"The Fund"];
-//		[categories addObject:@"Gatherings"];
-//		[categories addObject:@"Grace at Table"];
-//		[categories addObject:@"Healing"];
-//		[categories addObject:@"Humanity"];
-//		[categories addObject:@"Huqúqu'lláh"];
-//		[categories addObject:@"Infants"];
-//		[categories addObject:@"Joy and Ecstasy"];
-//		[categories addObject:@"Manifestation of God"];
-//		[categories addObject:@"Marriage"];
-//		[categories addObject:@"Morning"];
-//		[categories addObject:@"Nearness to God"];
-//		[categories addObject:@"Obligatory"];
-//		[categories addObject:@"Occasional Prayers"];
-//		[categories addObject:@"Paradise"];
-//		[categories addObject:@"Peace"];
-//		[categories addObject:@"Praise and Gratitude"];
-//		[categories addObject:@"Prison"];
-//		[categories addObject:@"Protection"];
-//		[categories addObject:@"Sacrifice"];
-//		[categories addObject:@"Service"];
-//		[categories addObject:@"Special Tablets"];
-//		[categories addObject:@"Spiritual Assembly"];
-//		[categories addObject:@"Spiritual Growth"];
-//		[categories addObject:@"Steadfastness"];
-//		[categories addObject:@"Teaching"];
-//		[categories addObject:@"Tests and Difficulties"];
-//		[categories addObject:@"Trials"];
-//		[categories addObject:@"Triumph of the Cause"];
-//		[categories addObject:@"Unity"];
-//		[categories addObject:@"Women"];
-//		[categories addObject:@"Youth"];
+		[categories addObject:@"Uncategorized"];
+		[categories addObject:@"Aid and Assistance"];
+		[categories addObject:@"America"];
+		[categories addObject:@"Children"];
+		[categories addObject:@"The Departed"];
+		[categories addObject:@"Detachment"];
+		[categories addObject:@"Divine Springtime"];
+		[categories addObject:@"Evening"];
+		[categories addObject:@"Expectant Mothers"];
+		[categories addObject:@"Families"];
+		[categories addObject:@"The Fast"];
+		[categories addObject:@"Firmness in the Covenant"];
+		[categories addObject:@"Forgiveness"];
+		[categories addObject:@"The Fund"];
+		[categories addObject:@"Gatherings"];
+		[categories addObject:@"Grace at Table"];
+		[categories addObject:@"Healing"];
+		[categories addObject:@"Humanity"];
+		[categories addObject:@"Huqúqu'lláh"];
+		[categories addObject:@"Infants"];
+		[categories addObject:@"Joy and Ecstasy"];
+		[categories addObject:@"Manifestation of God"];
+		[categories addObject:@"Marriage"];
+		[categories addObject:@"Morning"];
+		[categories addObject:@"Nearness to God"];
+		[categories addObject:@"Obligatory"];
+		[categories addObject:@"Occasional Prayers"];
+		[categories addObject:@"Paradise"];
+		[categories addObject:@"Peace"];
+		[categories addObject:@"Praise and Gratitude"];
+		[categories addObject:@"Prison"];
+		[categories addObject:@"Protection"];
+		[categories addObject:@"Sacrifice"];
+		[categories addObject:@"Service"];
+		[categories addObject:@"Special Tablets"];
+		[categories addObject:@"Spiritual Assembly"];
+		[categories addObject:@"Spiritual Growth"];
+		[categories addObject:@"Steadfastness"];
+		[categories addObject:@"Teaching"];
+		[categories addObject:@"Tests and Difficulties"];
+		[categories addObject:@"Trials"];
+		[categories addObject:@"Triumph of the Cause"];
+		[categories addObject:@"Unity"];
+		[categories addObject:@"Women"];
+		[categories addObject:@"Youth"];
 		
 		// Spanish categories
 		//[categories addObject:@"Obligatorias"];
@@ -105,38 +105,38 @@
 //		[categories addObject:@"Unidad"];
 		
 		// French categories
-		[categories addObject:@"Détachement"];
-		[categories addObject:@"Matin"];
-		[categories addObject:@"Soir"];
-		[categories addObject:@"Louange"];
-		[categories addObject:@"Qualités spirituelles"];
-		[categories addObject:@"Pardon"];
-		[categories addObject:@"Guérison"];
-		[categories addObject:@"Protection"];
-		[categories addObject:@"Epreuves et difficultés"];
-		[categories addObject:@"Assistance"];
-		[categories addObject:@"Enseignement"];
-		[categories addObject:@"Unité"];
-		[categories addObject:@"Justice"];
-		[categories addObject:@"Mariage"];
-		[categories addObject:@"Morts"];
-		[categories addObject:@"Tablettes spécial"];
-		[categories addObject:@"Prières obligatoires"];
-		[categories addObject:@"Jeûne"];
-		[categories addObject:@"Minuit"];
-		[categories addObject:@"Prières pour les Jeunes"];
-		[categories addObject:@"Enfants"];
-		[categories addObject:@"Réunion"];
-		[categories addObject:@"Assemblée spirituelle"];
-		[categories addObject:@"Joy"];
-		[categories addObject:@"Prières occasionnelles"];
+//		[categories addObject:@"Détachement"];
+//		[categories addObject:@"Matin"];
+//		[categories addObject:@"Soir"];
+//		[categories addObject:@"Louange"];
+//		[categories addObject:@"Qualités spirituelles"];
+//		[categories addObject:@"Pardon"];
+//		[categories addObject:@"Guérison"];
+//		[categories addObject:@"Protection"];
+//		[categories addObject:@"Epreuves et difficultés"];
+//		[categories addObject:@"Assistance"];
+//		[categories addObject:@"Enseignement"];
+//		[categories addObject:@"Unité"];
+//		[categories addObject:@"Justice"];
+//		[categories addObject:@"Mariage"];
+//		[categories addObject:@"Morts"];
+//		[categories addObject:@"Tablettes spécial"];
+//		[categories addObject:@"Prières obligatoires"];
+//		[categories addObject:@"Jeûne"];
+//		[categories addObject:@"Minuit"];
+//		[categories addObject:@"Prières pour les Jeunes"];
+//		[categories addObject:@"Enfants"];
+//		[categories addObject:@"Réunion"];
+//		[categories addObject:@"Assemblée spirituelle"];
+//		[categories addObject:@"Joy"];
+//		[categories addObject:@"Prières occasionnelles"];
 		
 		// english authors
 		authors = [[NSMutableArray alloc] init];
 		[authors addObject:@""];
-//		[authors addObject:@"'Abdu’l-Bahá"];
-//		[authors addObject:@"The Báb"];
-//		[authors addObject:@"Bahá’u’lláh"];
+		[authors addObject:@"'Abdu’l-Bahá"];
+		[authors addObject:@"The Báb"];
+		[authors addObject:@"Bahá’u’lláh"];
 		
 		// spanish authors
 		//[authors addObject:@"'Abdu’l-Bahá"];
@@ -144,9 +144,9 @@
 //		[authors addObject:@"Bahá’u’lláh"];
 		
 		// french authors
-		[authors addObject:@"'Abdu’l-Bahá"];
-		[authors addObject:@"Le Bab"];
-		[authors addObject:@"Bahá’u’lláh"];
+		//[authors addObject:@"'Abdu’l-Bahá"];
+//		[authors addObject:@"Le Bab"];
+//		[authors addObject:@"Bahá’u’lláh"];
 		
 		
 		prayers = [[NSMutableArray alloc] init];
