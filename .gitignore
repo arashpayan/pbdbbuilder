@@ -1,1 +1,4 @@
 build/*
+pbdbbuilder.xcodeproj/*.mode*
+pbdbbuilder.xcodeproj/*.pbxuser
+pbdbbuilder.xcodeproj/xcuserdata*

@@ -172,7 +172,14 @@
 			isa = PBXProject;
 			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "pbdbbuilder" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* pbdbbuilder */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -261,6 +268,7 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = pbdbbuilder;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -276,6 +284,7 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = pbdbbuilder;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};

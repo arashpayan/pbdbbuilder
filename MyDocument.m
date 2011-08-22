@@ -23,51 +23,51 @@
 		
 		// English categories
 		[categories addObject:@""];
-		[categories addObject:@"Uncategorized"];
-		[categories addObject:@"Aid and Assistance"];
-		[categories addObject:@"America"];
-		[categories addObject:@"Children"];
-		[categories addObject:@"The Departed"];
-		[categories addObject:@"Detachment"];
-		[categories addObject:@"Divine Springtime"];
-		[categories addObject:@"Evening"];
-		[categories addObject:@"Expectant Mothers"];
-		[categories addObject:@"Families"];
-		[categories addObject:@"The Fast"];
-		[categories addObject:@"Firmness in the Covenant"];
-		[categories addObject:@"Forgiveness"];
-		[categories addObject:@"The Fund"];
-		[categories addObject:@"Gatherings"];
-		[categories addObject:@"Grace at Table"];
-		[categories addObject:@"Healing"];
-		[categories addObject:@"Humanity"];
-		[categories addObject:@"Huqúqu'lláh"];
-		[categories addObject:@"Infants"];
-		[categories addObject:@"Joy and Ecstasy"];
-		[categories addObject:@"Manifestation of God"];
-		[categories addObject:@"Marriage"];
-		[categories addObject:@"Morning"];
-		[categories addObject:@"Nearness to God"];
-		[categories addObject:@"Obligatory"];
-		[categories addObject:@"Occasional Prayers"];
-		[categories addObject:@"Paradise"];
-		[categories addObject:@"Peace"];
-		[categories addObject:@"Praise and Gratitude"];
-		[categories addObject:@"Prison"];
-		[categories addObject:@"Protection"];
-		[categories addObject:@"Sacrifice"];
-		[categories addObject:@"Service"];
-		[categories addObject:@"Special Tablets"];
-		[categories addObject:@"Spiritual Assembly"];
-		[categories addObject:@"Spiritual Growth"];
-		[categories addObject:@"Steadfastness"];
-		[categories addObject:@"Teaching"];
-		[categories addObject:@"Tests and Difficulties"];
-		[categories addObject:@"Trials"];
-		[categories addObject:@"Triumph of the Cause"];
-		[categories addObject:@"Unity"];
-		[categories addObject:@"Women"];
-		[categories addObject:@"Youth"];
+		//[categories addObject:@"Uncategorized"];
+//		[categories addObject:@"Aid and Assistance"];
+//		[categories addObject:@"America"];
+//		[categories addObject:@"Children"];
+//		[categories addObject:@"The Departed"];
+//		[categories addObject:@"Detachment"];
+//		[categories addObject:@"Divine Springtime"];
+//		[categories addObject:@"Evening"];
+//		[categories addObject:@"Expectant Mothers"];
+//		[categories addObject:@"Families"];
+//		[categories addObject:@"The Fast"];
+//		[categories addObject:@"Firmness in the Covenant"];
+//		[categories addObject:@"Forgiveness"];
+//		[categories addObject:@"The Fund"];
+//		[categories addObject:@"Gatherings"];
+//		[categories addObject:@"Grace at Table"];
+//		[categories addObject:@"Healing"];
+//		[categories addObject:@"Humanity"];
+//		[categories addObject:@"Huqúqu'lláh"];
+//		[categories addObject:@"Infants"];
+//		[categories addObject:@"Joy and Ecstasy"];
+//		[categories addObject:@"Manifestation of God"];
+//		[categories addObject:@"Marriage"];
+//		[categories addObject:@"Morning"];
+//		[categories addObject:@"Nearness to God"];
+//		[categories addObject:@"Obligatory"];
+//		[categories addObject:@"Occasional Prayers"];
+//		[categories addObject:@"Paradise"];
+//		[categories addObject:@"Peace"];
+//		[categories addObject:@"Praise and Gratitude"];
+//		[categories addObject:@"Prison"];
+//		[categories addObject:@"Protection"];
+//		[categories addObject:@"Sacrifice"];
+//		[categories addObject:@"Service"];
+//		[categories addObject:@"Special Tablets"];
+//		[categories addObject:@"Spiritual Assembly"];
+//		[categories addObject:@"Spiritual Growth"];
+//		[categories addObject:@"Steadfastness"];
+//		[categories addObject:@"Teaching"];
+//		[categories addObject:@"Tests and Difficulties"];
+//		[categories addObject:@"Trials"];
+//		[categories addObject:@"Triumph of the Cause"];
+//		[categories addObject:@"Unity"];
+//		[categories addObject:@"Women"];
+//		[categories addObject:@"Youth"];
 		
 		// Spanish categories
 		//[categories addObject:@"Obligatorias"];
@@ -131,12 +131,74 @@
 //		[categories addObject:@"Joy"];
 //		[categories addObject:@"Prières occasionnelles"];
 		
+		// Dutch categories
+//		[categories addObject:@"Verplichte Gebeden"];				// Compulsory Prayers
+//		[categories addObject:@"Algemene Gebeden"];					// General Prayers
+//		[categories addObject:@"Avond"];							// Evening
+//		[categories addObject:@"Beproevingen en Moeilijkheden"];	// Tests and Difficulties
+//		[categories addObject:@"Bescherming"];						// Protection
+//		[categories addObject:@"Bijeenkomst"];						// Meeting
+//		[categories addObject:@"Eenheid"];							// Unit(y?)
+//		[categories addObject:@"Fonds"];							// Fund
+//		[categories addObject:@"Geestelijke Groei"];				// Spiritual Growth
+//		[categories addObject:@"Geestelijke Raad"];					// Spiritual Assembly
+//		[categories addObject:@"Genezing"];							// Healing
+//		[categories addObject:@"Gezin"];							// Family
+//		[categories addObject:@"Handen Van de Zaak Gods"];			// Hands of the Cause of God
+//		[categories addObject:@"Hulp en Bijstand"];					// Aid and Assistance
+//		[categories addObject:@"Huwelijk"];							// Marriage
+//		[categories addObject:@"Jongeren"];							// Youth
+//		[categories addObject:@"Kinderen"];							// Children
+//		[categories addObject:@"Lof en Dankbaarheid"];				// Praise and Gratitude
+//		[categories addObject:@"Martelaren"];						// Martyrs
+//		[categories addObject:@"Naw-Rúz"];
+//		[categories addObject:@"Ochtend"];							// Morning
+//		[categories addObject:@"Onderricht"];						// Teaching
+//		[categories addObject:@"Onderricht: Tafelen van het Goddelijk Plan"];	// Teaching: Tablets of the Divine Plan
+//		[categories addObject:@"Onthechting"];						// Detachment
+//		[categories addObject:@"Overledenen"];						// Deaths
+//		[categories addObject:@"Schrikkeldagen"];					// Intercalary Days
+//		[categories addObject:@"Standvastigheid"];					// Steadfastness
+//		[categories addObject:@"Tafelgebeden"];						// Table Prayers
+//		[categories addObject:@"Vasten"];							// Fast
+//		[categories addObject:@"Vergeving"];						// Forgiveness
+//		[categories addObject:@"Bijzondere Gebeden"];				// Special Tablets
+        
+        // Persian categories
+        [categories addObject:@"ستایش"];								// Praise
+        [categories addObject:@"حقیقت جویی"];							// Truth
+        [categories addObject:@"رستگاری و هدایت"];						// Redemption and Hedayat
+        [categories addObject:@"بندگی"];								// Bondage
+        [categories addObject:@"عشق و شادی"];							// Love and Happiness
+        [categories addObject:@"پاکی و خلوص"];							// ? and Clearance
+        [categories addObject:@"وارستگی"];								// Philosophy
+        [categories addObject:@"اخلاق روحانی"];							// Spiritual Ethics
+        [categories addObject:@"خدمت"];								// Service
+        [categories addObject:@"یگانگی"];								// Unity
+        [categories addObject:@"صلح"];								// Reconciliation
+        [categories addObject:@"درخواست یاری"];							// Request Help
+        [categories addObject:@"شُکر"];								// Thanked
+        [categories addObject:@"رزق و روزی"];							// Provisions, one (??)
+        [categories addObject:@"حفظ و حمایت"];							// Save and ?
+        [categories addObject:@"عفو و بخشش"];							// Forgiveness
+        [categories addObject:@"پدر و مادر"];							// Parents
+        [categories addObject:@"کودکان"];								// Children
+        [categories addObject:@"نوجوانان"];								// Teenagers (Youth)
+        [categories addObject:@"دختران"];								// Girls
+        [categories addObject:@"ازدواج"];								// Marriage
+        [categories addObject:@"شفای بیماران"];							// Healing Patients
+        [categories addObject:@"ترک آلودگی و اعتیاد"];						// Pollution and drug addiction withdrawal
+        [categories addObject:@"درگذشتگان"];							// Deaths
+        [categories addObject:@"ایران"];								// Iran
+        
+        
+		
 		// english authors
 		authors = [[NSMutableArray alloc] init];
 		[authors addObject:@""];
-		[authors addObject:@"'Abdu’l-Bahá"];
-		[authors addObject:@"The Báb"];
-		[authors addObject:@"Bahá’u’lláh"];
+		//[authors addObject:@"'Abdu’l-Bahá"];
+//		[authors addObject:@"The Báb"];
+//		[authors addObject:@"Bahá’u’lláh"];
 		
 		// spanish authors
 		//[authors addObject:@"'Abdu’l-Bahá"];
@@ -148,10 +210,15 @@
 //		[authors addObject:@"Le Bab"];
 //		[authors addObject:@"Bahá’u’lláh"];
 		
+		// dutch authors
+		[authors addObject:@"'Abdu’l-Bahá"];
+		[authors addObject:@"de Báb"];
+		[authors addObject:@"Bahá’u’lláh"];
+		
 		
 		prayers = [[NSMutableArray alloc] init];
 		NSMutableString *tmp = [[NSMutableString alloc] init];
-		[tmp appendString:@"<html><head>"];
+		[tmp appendString:@"<html dir=\"rtl\"><head>"];
 		[tmp appendString:@"<style type=\"text/css\">"];
 		[tmp appendString:@"#prayer p {margin: 0 0px .75em 5px; color: #330000; font: normal 1em/1.375em Georgia, \"Times New Roman\", Times, serif; clear: both; text-indent: 1em;}"];
 		[tmp appendString:@"#prayer p.opening {text-indent: 0;}"];
@@ -166,6 +233,8 @@
 		htmlSuffix = [NSString stringWithString:@"</div></body></html>"];
 		
 		languages = [[NSMutableArray alloc] init];
+        [languages addObject:@"fa"];
+		[languages addObject:@"nl"];
 		[languages addObject:@"en"];
 		[languages addObject:@"es"];
 		[languages addObject:@"fr"];
@@ -177,6 +246,10 @@
 - (void)awakeFromNib
 {
 	[self tableViewSelectionDidChange:nil];
+    
+    [textView setBaseWritingDirection:NSWritingDirectionLeftToRight];
+//    [titleTextField setBaseWritingDirection:NSWritingDirectionRightToLeft];
+//    [citationTextField setBaseWritingDirection:NSWritingDirectionRightToLeft];
 }
 
 - (NSString*)windowNibName
@@ -267,28 +340,7 @@
 		rc = sqlite3_bind_text(insertStmt, 7, [language UTF8String], [language lengthOfBytesUsingEncoding:NSUTF8StringEncoding], SQLITE_STATIC);
 		if (rc != SQLITE_OK)
 			NSLog(@"Problem binding language");
-		
-		//rc = sqlite3_bind_int(insertStmt, 8, [currPrayer wordCount]);
-//		if (rc != SQLITE_OK)
-//			NSLog(@"Problem binding word count");
-//		
-//		NSString *searchText = [[currPrayer prayerText] stringByReplacingOccurrencesOfString:@"<p>" withString:@""];
-//		searchText = [searchText stringByReplacingOccurrencesOfString:@"<p class=\"opening\">" withString:@""];
-//		searchText = [searchText stringByReplacingOccurrencesOfString:@"<p class=\"noindent\">" withString:@""];
-//		searchText = [searchText stringByReplacingOccurrencesOfString:@"<p class=\"comment\">" withString:@""];
-//		searchText = [searchText stringByReplacingOccurrencesOfString:@"<p class=\"commentcaps\">" withString:@""];
-//		searchText = [searchText stringByReplacingOccurrencesOfString:@"<br/>" withString:@""];
-//		searchText = [searchText stringByReplacingOccurrencesOfString:@"</p>" withString:@""];
-//		searchText = [searchText stringByReplacingOccurrencesOfString:@"<span class=\"versal\">" withString:@""];
-//		searchText = [searchText stringByReplacingOccurrencesOfString:@"</span>" withString:@""];
-//		if (searchText == nil)
-//		{
-//			NSLog(@"While saving, searchText was nil for prayer %d", currPrayer.prayerId);
-//			searchText = @"";
-//		}
-//		rc = sqlite3_bind_text(insertStmt, 9, [searchText UTF8String], [searchText lengthOfBytesUsingEncoding:NSUTF8StringEncoding], SQLITE_STATIC);
-//		if (rc != SQLITE_OK)
-//			NSLog(@"Problem binding search text");
+
 		
 		// execute the insertion
 		rc = sqlite3_step(insertStmt);
