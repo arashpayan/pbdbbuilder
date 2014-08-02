@@ -32,7 +32,7 @@
 		self.author = @"";
 		self.text = @"";
 		self.category = @"";
-		self.language = @"fa";
+		self.language = @"pt-BR";
 		self.prayerId = prayerIdStart++;
 	}
 	
@@ -51,43 +51,43 @@
 	{
 		if (anId < 1)
 		{
-			[NSException raise:@"PrayerInputException" format:@"Encountered a prayer id less than 1 (%d)", anId];
+			[NSException raise:@"PrayerInputException" format:@"Encountered a prayer id less than 1 (%ld)", anId];
 		}
 		self.prayerId = anId;
 		
 		if (aTitle == nil)
 		{
-			[NSException raise:@"PrayerInputException" format:@"Encountered a nil title (prayer %d)", anId];
+			[NSException raise:@"PrayerInputException" format:@"Encountered a nil title (prayer %ld)", anId];
 		}
 		self.title = aTitle;
 		
 		if (aCategory == nil)
 		{
-			[NSException raise:@"PrayerInputException" format:@"Encountered a nil category (prayer %d)", anId];
+			[NSException raise:@"PrayerInputException" format:@"Encountered a nil category (prayer %ld)", anId];
 		}
 		self.category = aCategory;
 		
 		if (anAuthor == nil)
 		{
-			[NSException raise:@"PrayerInputException" format:@"Encountered a nil author (prayer %d)", anId];
+			[NSException raise:@"PrayerInputException" format:@"Encountered a nil author (prayer %ld)", anId];
 		}
 		self.author = anAuthor;
 		
 		if (aLanguage == nil)
 		{
-			[NSException raise:@"PrayerInputException" format:@"Encountered a nil language (prayer %d)", anId];
+			[NSException raise:@"PrayerInputException" format:@"Encountered a nil language (prayer %ld)", anId];
 		}
 		self.language = aLanguage;
 		
 		if (aCitation == nil)
 		{
-			[NSException raise:@"PrayerInputException" format:@"Encountered a nil citation (prayer %d)", anId];
+			[NSException raise:@"PrayerInputException" format:@"Encountered a nil citation (prayer %ld)", anId];
 		}
 		self.citation = aCitation;
 		
 		if (aText == nil)
 		{
-			[NSException raise:@"PrayerInputException" format:@"Encountered a nil text (prayer %d)", anId];
+			[NSException raise:@"PrayerInputException" format:@"Encountered a nil text (prayer %ld)", anId];
 		}
 		self.text = aText;
 	}

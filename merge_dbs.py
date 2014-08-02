@@ -22,6 +22,13 @@ dutch_cur = dutch_conn.cursor()
 persian_conn = sqlite3.connect('persian.db')
 persian_cur = persian_conn.cursor()
 
+# open up the czech db
+czech_conn = sqlite3.connect('czech.db')
+czech_cur = czech_conn.cursor()
+
+slovak_conn = sqlite3.connect('slovak.db')
+slovak_cur = slovak_conn.cursor()
+
 # create the merged db
 merged_conn = sqlite3.connect('merged.db')
 merged_cur = merged_conn.cursor()
@@ -100,7 +107,7 @@ for row in rows:
     merged_conn.execute('INSERT INTO prayers (id, category, prayerText, openingWords, citation, author, language, wordCount, searchText) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)', rowList)
 
 francais_conn.close()
-    
+
 rows = dutch_cur.execute('SELECT * FROM prayers')
 for row in rows:
     prayerText = row[2]
@@ -148,6 +155,54 @@ for row in rows:
     merged_conn.execute('INSERT INTO prayers (id, category, prayerText, openingWords, citation, author, language, wordCount, searchText) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)', rowList)
 
 persian_conn.close()
+
+rows = czech_cur.execute('SELECT * FROM prayers')
+for row in rows:
+    prayerText = row[2]
+    prayerText = string.replace(prayerText, '<p>', '')
+    prayerText = string.replace(prayerText, '</p>', '')
+    prayerText = string.replace(prayerText, '<p class="opening">', '')
+    prayerText = string.replace(prayerText, '<span class="versal">', '')
+    prayerText = string.replace(prayerText, '</span>', '')
+    prayerText = string.replace(prayerText, '<p class="noindent">', '')
+    prayerText = string.replace(prayerText, '<br/', '')
+    prayerText = string.replace(prayerText, '<i>', '')
+    prayerText = string.replace(prayerText, '</i>', '')
+    prayerText = string.replace(prayerText, '<p class="comment">', '')
+    prayerText = string.replace(prayerText, '<p class="commentcaps">', '')
+    prayerText = string.replace(prayerText, '<em>', '')
+    prayerText = string.replace(prayerText, '</em>', '')
+    prayerWords = wsPattern.split(prayerText)
+    rowList = list(row)
+    rowList.append(len(prayerWords))
+    rowList.append(prayerText)
+    merged_conn.execute('INSERT INTO prayers (id, category, prayerText, openingWords, citation, author, language, wordCount, searchText) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)', rowList)
+
+czech_conn.close()
+
+rows = slovak_cur.execute('SELECT * FROM prayers')
+for row in rows:
+    prayerText = row[2]
+    prayerText = string.replace(prayerText, '<p>', '')
+    prayerText = string.replace(prayerText, '</p>', '')
+    prayerText = string.replace(prayerText, '<p class="opening">', '')
+    prayerText = string.replace(prayerText, '<span class="versal">', '')
+    prayerText = string.replace(prayerText, '</span>', '')
+    prayerText = string.replace(prayerText, '<p class="noindent">', '')
+    prayerText = string.replace(prayerText, '<br/', '')
+    prayerText = string.replace(prayerText, '<i>', '')
+    prayerText = string.replace(prayerText, '</i>', '')
+    prayerText = string.replace(prayerText, '<p class="comment">', '')
+    prayerText = string.replace(prayerText, '<p class="commentcaps">', '')
+    prayerText = string.replace(prayerText, '<em>', '')
+    prayerText = string.replace(prayerText, '</em>', '')
+    prayerWords = wsPattern.split(prayerText)
+    rowList = list(row)
+    rowList.append(len(prayerWords))
+    rowList.append(prayerText)
+    merged_conn.execute('INSERT INTO prayers (id, category, prayerText, openingWords, citation, author, language, wordCount, searchText) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)', rowList)
+
+slovak_conn.close()
 
 merged_conn.commit()
 merged_conn.close()
