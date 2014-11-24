@@ -288,6 +288,12 @@
 	[self tableViewSelectionDidChange:nil];
     
     [textView setBaseWritingDirection:NSWritingDirectionLeftToRight];
+    textView.automaticQuoteSubstitutionEnabled = NO;
+    textView.automaticSpellingCorrectionEnabled = NO;
+    textView.automaticDashSubstitutionEnabled = NO;
+    textView.automaticTextReplacementEnabled = NO;
+    textView.automaticLinkDetectionEnabled = NO;
+    textView.automaticDashSubstitutionEnabled = NO;
 //    [titleTextField setBaseWritingDirection:NSWritingDirectionRightToLeft];
 //    [citationTextField setBaseWritingDirection:NSWritingDirectionRightToLeft];
 }
