@@ -2,3 +2,5 @@ build/*
 pbdbbuilder.xcodeproj/*.mode*
 pbdbbuilder.xcodeproj/*.pbxuser
 pbdbbuilder.xcodeproj/xcuserdata*
+pbdbbuilder.xcodeproj/project.xcworkspace/xcuserdata*
+pbdbbuilder.xcodeproj/project.xcworkspace/xcshareddata*
