@@ -278,6 +278,7 @@
 //		[languages addObject:@"de"];
         [languages addObject:@"cs"];
         [languages addObject:@"sk"];
+        [languages addObject:@"fj"];
         
     }
     return self;
