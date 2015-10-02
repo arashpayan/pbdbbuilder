@@ -165,31 +165,31 @@
 //		[categories addObject:@"Bijzondere Gebeden"];				// Special Tablets
         
         // Persian categories
-        [categories addObject:@"ستایش"];								// Praise
-        [categories addObject:@"حقیقت جویی"];							// Truth
-        [categories addObject:@"رستگاری و هدایت"];						// Redemption and Hedayat
-        [categories addObject:@"بندگی"];								// Bondage
-        [categories addObject:@"عشق و شادی"];							// Love and Happiness
-        [categories addObject:@"پاکی و خلوص"];							// ? and Clearance
-        [categories addObject:@"وارستگی"];								// Philosophy
-        [categories addObject:@"اخلاق روحانی"];							// Spiritual Ethics
-        [categories addObject:@"خدمت"];								// Service
-        [categories addObject:@"یگانگی"];								// Unity
-        [categories addObject:@"صلح"];								// Reconciliation
-        [categories addObject:@"درخواست یاری"];							// Request Help
-        [categories addObject:@"شُکر"];								// Thanked
-        [categories addObject:@"رزق و روزی"];							// Provisions, one (??)
-        [categories addObject:@"حفظ و حمایت"];							// Save and ?
-        [categories addObject:@"عفو و بخشش"];							// Forgiveness
-        [categories addObject:@"پدر و مادر"];							// Parents
-        [categories addObject:@"کودکان"];								// Children
-        [categories addObject:@"نوجوانان"];								// Teenagers (Youth)
-        [categories addObject:@"دختران"];								// Girls
-        [categories addObject:@"ازدواج"];								// Marriage
-        [categories addObject:@"شفای بیماران"];							// Healing Patients
-        [categories addObject:@"ترک آلودگی و اعتیاد"];						// Pollution and drug addiction withdrawal
-        [categories addObject:@"درگذشتگان"];							// Deaths
-        [categories addObject:@"ایران"];								// Iran
+//        [categories addObject:@"ستایش"];								// Praise
+//        [categories addObject:@"حقیقت جویی"];							// Truth
+//        [categories addObject:@"رستگاری و هدایت"];						// Redemption and Hedayat
+//        [categories addObject:@"بندگی"];								// Bondage
+//        [categories addObject:@"عشق و شادی"];							// Love and Happiness
+//        [categories addObject:@"پاکی و خلوص"];							// ? and Clearance
+//        [categories addObject:@"وارستگی"];								// Philosophy
+//        [categories addObject:@"اخلاق روحانی"];							// Spiritual Ethics
+//        [categories addObject:@"خدمت"];								// Service
+//        [categories addObject:@"یگانگی"];								// Unity
+//        [categories addObject:@"صلح"];								// Reconciliation
+//        [categories addObject:@"درخواست یاری"];							// Request Help
+//        [categories addObject:@"شُکر"];								// Thanked
+//        [categories addObject:@"رزق و روزی"];							// Provisions, one (??)
+//        [categories addObject:@"حفظ و حمایت"];							// Save and ?
+//        [categories addObject:@"عفو و بخشش"];							// Forgiveness
+//        [categories addObject:@"پدر و مادر"];							// Parents
+//        [categories addObject:@"کودکان"];								// Children
+//        [categories addObject:@"نوجوانان"];								// Teenagers (Youth)
+//        [categories addObject:@"دختران"];								// Girls
+//        [categories addObject:@"ازدواج"];								// Marriage
+//        [categories addObject:@"شفای بیماران"];							// Healing Patients
+//        [categories addObject:@"ترک آلودگی و اعتیاد"];						// Pollution and drug addiction withdrawal
+//        [categories addObject:@"درگذشتگان"];							// Deaths
+//        [categories addObject:@"ایران"];								// Iran
         
         // Brazilian Portuguese categories
 //        [categories addObject:@"Ajuda"];
@@ -227,9 +227,9 @@
 		// english authors
 		authors = [[NSMutableArray alloc] init];
 		[authors addObject:@""];
-//		[authors addObject:@"'Abdu’l-Bahá"];
-//		[authors addObject:@"The Báb"];
-//		[authors addObject:@"Bahá’u’lláh"];
+		[authors addObject:@"'Abdu’l-Bahá"];
+		[authors addObject:@"The Báb"];
+		[authors addObject:@"Bahá’u’lláh"];
 		
 		// spanish authors
 		//[authors addObject:@"'Abdu’l-Bahá"];
@@ -254,7 +254,7 @@
 		
 		prayers = [[NSMutableArray alloc] init];
 		NSMutableString *tmp = [[NSMutableString alloc] init];
-		[tmp appendString:@"<html dir=\"rtl\"><head>"];
+		[tmp appendString:@"<html><head>"];
 		[tmp appendString:@"<style type=\"text/css\">"];
 		[tmp appendString:@"#prayer p {margin: 0 0px .75em 5px; color: #330000; font: normal 1em/1.375em Georgia, \"Times New Roman\", Times, serif; clear: both; text-indent: 1em;}"];
 		[tmp appendString:@"#prayer p.opening {text-indent: 0;}"];
@@ -266,7 +266,7 @@
 		[tmp appendString:@"span.versal {float: left; display: inline; position: relative; color: #992222; font: normal 3.5em/.75em \"Times New Roman\", Times, serif; margin: 0 .15em 0 .15em; padding: 0;}"];
 		[tmp appendString:@"</style></head><body><div id=\"prayer\">"];
 		htmlPrefix = tmp;
-		htmlSuffix = [NSString stringWithString:@"</div></body></html>"];
+		htmlSuffix = @"</div></body></html>";
 		
 		languages = [[NSMutableArray alloc] init];
 //        [languages addObject:@"pt-BR"];

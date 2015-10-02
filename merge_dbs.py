@@ -34,6 +34,10 @@ slovak_cur = slovak_conn.cursor()
 fijian_conn = sqlite3.connect('fijian.db')
 fijian_cur = fijian_conn.cursor()
 
+# open up the icelandic db
+icelandic_conn = sqlite3.connect('icelandic.db')
+icelandic_cur = icelandic_conn.cursor()
+
 # create the merged db
 merged_conn = sqlite3.connect('merged.db')
 merged_cur = merged_conn.cursor()
@@ -232,6 +236,30 @@ for row in rows:
     merged_conn.execute('INSERT INTO prayers (id, category, prayerText, openingWords, citation, author, language, wordCount, searchText) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)', rowList)
 
 fijian_conn.close()
+
+rows = icelandic_cur.execute('SELECT * FROM prayers')
+for row in rows:
+    prayerText = row[2]
+    prayerText = string.replace(prayerText, '<p>', '')
+    prayerText = string.replace(prayerText, '</p>', '')
+    prayerText = string.replace(prayerText, '<p class="opening">', '')
+    prayerText = string.replace(prayerText, '<span class="versal">', '')
+    prayerText = string.replace(prayerText, '</span>', '')
+    prayerText = string.replace(prayerText, '<p class="noindent">', '')
+    prayerText = string.replace(prayerText, '<br/', '')
+    prayerText = string.replace(prayerText, '<i>', '')
+    prayerText = string.replace(prayerText, '</i>', '')
+    prayerText = string.replace(prayerText, '<p class="comment">', '')
+    prayerText = string.replace(prayerText, '<p class="commentcaps">', '')
+    prayerText = string.replace(prayerText, '<em>', '')
+    prayerText = string.replace(prayerText, '</em>', '')
+    prayerWords = wsPattern.split(prayerText)
+    rowList = list(row)
+    rowList.append(len(prayerWords))
+    rowList.append(prayerText)
+    merged_conn.execute('INSERT INTO prayers (id, category, prayerText, openingWords, citation, author, language, wordCount, searchText) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)', rowList)
+
+icelandic_conn.close()
 
 merged_conn.commit()
 merged_conn.close()
