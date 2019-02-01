@@ -600,7 +600,7 @@
 - (IBAction)markupPrayer:(id)sender
 {
 	NSString *text = [textView string];
-	NSString *title_val = [NSString stringWithFormat:@"%@...", [text substringToIndex:50]];
+	NSString *title_val = [NSString stringWithFormat:@"%@…", [text substringToIndex:50]];
 	[titleTextField setStringValue:title_val];
 	[self titleChanged:self];
 	text = [text stringByReplacingOccurrencesOfRegex:@"(\\n|\\r)" withString:@"</p>\n\n<p>"];
