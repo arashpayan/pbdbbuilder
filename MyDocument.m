@@ -23,6 +23,7 @@
 		
 		// English categories
 		[categories addObject:@""];
+        [categories addObject:@"Recently Added"];
 		[categories addObject:@"Uncategorized"];
 		[categories addObject:@"Aid and Assistance"];
 		[categories addObject:@"America"];

@@ -270,7 +270,7 @@
 				GCC_PREFIX_HEADER = pbdbbuilder_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = pbdbbuilder;
 				SDKROOT = macosx;
@@ -288,7 +288,7 @@
 				GCC_PREFIX_HEADER = pbdbbuilder_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = pbdbbuilder;
 				SDKROOT = macosx;
