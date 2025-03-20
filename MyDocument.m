@@ -22,90 +22,90 @@
 		categories = [[NSMutableArray alloc] init];
 		
 		// English categories
-//		[categories addObject:@""];
-//        [categories addObject:@"Recently Added"];
-//		[categories addObject:@"Uncategorized"];
-//		[categories addObject:@"Aid and Assistance"];
-//		[categories addObject:@"America"];
-//		[categories addObject:@"Children"];
-//		[categories addObject:@"The Departed"];
-//		[categories addObject:@"Detachment"];
-//		[categories addObject:@"Divine Springtime"];
-//		[categories addObject:@"Evening"];
-//		[categories addObject:@"Expectant Mothers"];
-//		[categories addObject:@"Families"];
-//		[categories addObject:@"The Fast"];
-//		[categories addObject:@"Firmness in the Covenant"];
-//		[categories addObject:@"Forgiveness"];
-//		[categories addObject:@"The Fund"];
-//		[categories addObject:@"Gatherings"];
-//		[categories addObject:@"Grace at Table"];
-//		[categories addObject:@"Healing"];
-//		[categories addObject:@"Humanity"];
-//		[categories addObject:@"Huqúqu'lláh"];
-//		[categories addObject:@"Infants"];
-//		[categories addObject:@"Joy and Ecstasy"];
-//		[categories addObject:@"Manifestation of God"];
-//		[categories addObject:@"Marriage"];
-//		[categories addObject:@"Morning"];
-//		[categories addObject:@"Nearness to God"];
-//		[categories addObject:@"Obligatory"];
-//		[categories addObject:@"Occasional Prayers"];
-//		[categories addObject:@"Paradise"];
-//		[categories addObject:@"Peace"];
-//		[categories addObject:@"Praise and Gratitude"];
-//		[categories addObject:@"Prison"];
-//		[categories addObject:@"Protection"];
-//		[categories addObject:@"Sacrifice"];
-//		[categories addObject:@"Service"];
-//		[categories addObject:@"Special Tablets"];
-//		[categories addObject:@"Spiritual Assembly"];
-//		[categories addObject:@"Spiritual Growth"];
-//		[categories addObject:@"Steadfastness"];
-//		[categories addObject:@"Teaching"];
-//		[categories addObject:@"Tests and Difficulties"];
-//		[categories addObject:@"Trials"];
-//		[categories addObject:@"Triumph of the Cause"];
-//		[categories addObject:@"Unity"];
-//		[categories addObject:@"Women"];
-//		[categories addObject:@"Youth"];
+		[categories addObject:@""];
+        [categories addObject:@"Recently Added"];
+		[categories addObject:@"Uncategorized"];
+		[categories addObject:@"Aid and Assistance"];
+		[categories addObject:@"America"];
+		[categories addObject:@"Children"];
+		[categories addObject:@"The Departed"];
+		[categories addObject:@"Detachment"];
+		[categories addObject:@"Divine Springtime"];
+		[categories addObject:@"Evening"];
+		[categories addObject:@"Expectant Mothers"];
+		[categories addObject:@"Families"];
+		[categories addObject:@"The Fast"];
+		[categories addObject:@"Firmness in the Covenant"];
+		[categories addObject:@"Forgiveness"];
+		[categories addObject:@"The Fund"];
+		[categories addObject:@"Gatherings"];
+		[categories addObject:@"Grace at Table"];
+		[categories addObject:@"Healing"];
+		[categories addObject:@"Humanity"];
+		[categories addObject:@"Huqúqu'lláh"];
+		[categories addObject:@"Infants"];
+		[categories addObject:@"Joy and Ecstasy"];
+		[categories addObject:@"Manifestation of God"];
+		[categories addObject:@"Marriage"];
+		[categories addObject:@"Morning"];
+		[categories addObject:@"Nearness to God"];
+		[categories addObject:@"Obligatory"];
+		[categories addObject:@"Occasional Prayers"];
+		[categories addObject:@"Paradise"];
+		[categories addObject:@"Peace"];
+		[categories addObject:@"Praise and Gratitude"];
+		[categories addObject:@"Prison"];
+		[categories addObject:@"Protection"];
+		[categories addObject:@"Sacrifice"];
+		[categories addObject:@"Service"];
+		[categories addObject:@"Special Tablets"];
+		[categories addObject:@"Spiritual Assembly"];
+		[categories addObject:@"Spiritual Growth"];
+		[categories addObject:@"Steadfastness"];
+		[categories addObject:@"Teaching"];
+		[categories addObject:@"Tests and Difficulties"];
+		[categories addObject:@"Trials"];
+		[categories addObject:@"Triumph of the Cause"];
+		[categories addObject:@"Unity"];
+		[categories addObject:@"Women"];
+		[categories addObject:@"Youth"];
 		
 		// Spanish categories
-		[categories addObject:@"Obligatorias"];
-		[categories addObject:@"Agradecimiento y alabanza"];
-		[categories addObject:@"Ayuda"];
-        [categories addObject:@"Cercanía a Dios"];
-		[categories addObject:@"Constancia"];
-		[categories addObject:@"Cualidades espirituale"];
-		[categories addObject:@"Curación"];
-		[categories addObject:@"Desprendimiento"];
-		[categories addObject:@"Difuntos"];
-		[categories addObject:@"Enseñanza"];
-		[categories addObject:@"Familia"];
-		[categories addObject:@"Firmeza en la Alianza"];
-		[categories addObject:@"Fondos"];
-		[categories addObject:@"Humanidad"];
-		[categories addObject:@"Iluminación"];
-		[categories addObject:@"Jóvenes"];
-		[categories addObject:@"Mañana"];
-		[categories addObject:@"Matrimonio"];
-		[categories addObject:@"Mujeres"];
-		[categories addObject:@"Niños"];
-		[categories addObject:@"Noche"];
-        [categories addObject:@"Obediencia"];
-		[categories addObject:@"Perdón"];
-		[categories addObject:@"Protección"];
-		[categories addObject:@"Pruebas y dificultades"];
-		[categories addObject:@"Reuniones"];
-		[categories addObject:@"Triunfo de la Causa"];
-		[categories addObject:@"Unidad"];
-        [categories addObject:@"Asamblea Espiritual"];
-        [categories addObject:@"Ayuno"];
-        [categories addObject:@"Días intercalares"];
-        [categories addObject:@"Ḥuqúqu’lláh"];
-        [categories addObject:@"Mártires y sus familias"];
-        [categories addObject:@"Naw-Rúz"];
-        [categories addObject:@"Tablas especiales"];
+//		[categories addObject:@"Obligatorias"];
+//		[categories addObject:@"Agradecimiento y alabanza"];
+//		[categories addObject:@"Ayuda"];
+//        [categories addObject:@"Cercanía a Dios"];
+//		[categories addObject:@"Constancia"];
+//		[categories addObject:@"Cualidades espirituale"];
+//		[categories addObject:@"Curación"];
+//		[categories addObject:@"Desprendimiento"];
+//		[categories addObject:@"Difuntos"];
+//		[categories addObject:@"Enseñanza"];
+//		[categories addObject:@"Familia"];
+//		[categories addObject:@"Firmeza en la Alianza"];
+//		[categories addObject:@"Fondos"];
+//		[categories addObject:@"Humanidad"];
+//		[categories addObject:@"Iluminación"];
+//		[categories addObject:@"Jóvenes"];
+//		[categories addObject:@"Mañana"];
+//		[categories addObject:@"Matrimonio"];
+//		[categories addObject:@"Mujeres"];
+//		[categories addObject:@"Niños"];
+//		[categories addObject:@"Noche"];
+//        [categories addObject:@"Obediencia"];
+//		[categories addObject:@"Perdón"];
+//		[categories addObject:@"Protección"];
+//		[categories addObject:@"Pruebas y dificultades"];
+//		[categories addObject:@"Reuniones"];
+//		[categories addObject:@"Triunfo de la Causa"];
+//		[categories addObject:@"Unidad"];
+//        [categories addObject:@"Asamblea Espiritual"];
+//        [categories addObject:@"Ayuno"];
+//        [categories addObject:@"Días intercalares"];
+//        [categories addObject:@"Ḥuqúqu’lláh"];
+//        [categories addObject:@"Mártires y sus familias"];
+//        [categories addObject:@"Naw-Rúz"];
+//        [categories addObject:@"Tablas especiales"];
 		
 		// French categories
 //		[categories addObject:@"Détachement"];
@@ -226,18 +226,38 @@
 //        [categories addObject:@"Ocasiões Especiais"];
 //        [categories addObject:@"Epístolas"];
         
+        // Bemba categories
+//        [categories addObject:@"Pa Mapepo Aya"];
+//        [categories addObject:@"Ipepo Ilipi Ilya Konkomeshiwa"];
+//        [categories addObject:@"Ipepo Lya Ku Macaca"];
+//        [categories addObject:@"Ipepo Lya Kacelo"];
+//        [categories addObject:@"Ipepo Lya Cungulo"];
+//        [categories addObject:@"Ukufunga"];
+//        [categories addObject:@"Ipepo Lya Cupo"];
+//        [categories addObject:@"Ukundapwa"];
+//        [categories addObject:@"Icilonganino Ca Mushilo"];
+//        [categories addObject:@"Amapepo Ya Bana"];
+//        [categories addObject:@"Icipao"];
+//        [categories addObject:@"Ipepo Lya Bafwa"];
+//        [categories addObject:@"Ukwikatana"];
+//        [categories addObject:@"Amapepo Yambi"];
+//        [categories addObject:@"Amalembo Yamo Ayasalwa Ukufuma Ku Mashiwi Ayafisamika Ayakwa Bahá’u’lláh"];
+//        [categories addObject:@"Amalembo Yamo Ayasalwa Ukufuma Kuli Bahá’u’lláh"];
+//        [categories addObject:@"Ukufuma Mu Malembo Yakwa 'Abdu’l-Bahá"];
+//        [categories addObject:@"Icipapatu Ca Butandashi Ku Lufuba Lwakwa 'Abdu’l-Bahá"];
+        
 		
 		// english authors
 		authors = [[NSMutableArray alloc] init];
 		[authors addObject:@""];
-//		[authors addObject:@"'Abdu’l-Bahá"];
-//		[authors addObject:@"The Báb"];
-//		[authors addObject:@"Bahá’u’lláh"];
+		[authors addObject:@"'Abdu’l-Bahá"];
+		[authors addObject:@"The Báb"];
+		[authors addObject:@"Bahá’u’lláh"];
 		
 		// spanish authors
-		[authors addObject:@"‘Abdu'l-Bahá"];
-		[authors addObject:@"El Báb"];
-		[authors addObject:@"Bahá’u’lláh"];
+//		[authors addObject:@"‘Abdu'l-Bahá"];
+//		[authors addObject:@"El Báb"];
+//		[authors addObject:@"Bahá’u’lláh"];
 		
 		// french authors
 		//[authors addObject:@"'Abdu’l-Bahá"];
@@ -252,6 +272,11 @@
         // brazilian portuguese authors
 //        [authors addObject:@"'Abdu’l-Bahá"];
 //        [authors addObject:@"O Báb"];
+//        [authors addObject:@"Bahá’u’lláh"];
+        
+        // bemba authors
+//        [authors addObject:@"'Abdu’l-Bahá"];
+//        [authors addObject:@"The Báb"];
 //        [authors addObject:@"Bahá’u’lláh"];
 		
 		
@@ -275,13 +300,14 @@
 //        [languages addObject:@"pt-BR"];
 //        [languages addObject:@"fa"];
 //		[languages addObject:@"nl"];
-//		[languages addObject:@"en"];
-		[languages addObject:@"es"];
+		[languages addObject:@"en"];
+//		[languages addObject:@"es"];
 //		[languages addObject:@"fr"];
 //		[languages addObject:@"de"];
 //        [languages addObject:@"cs"];
 //        [languages addObject:@"sk"];
 //        [languages addObject:@"fj"];
+//        [languages addObject:@"bem"];
         
     }
     return self;
@@ -348,46 +374,46 @@
 	// insert the prayers
 	NSString *insertPrayer = @"INSERT INTO prayers (id, category, prayerText, openingWords, citation, author, language) VALUES (?, ?, ?, ?, ?, ?, ?)";
 	sqlite3_stmt *insertStmt;
-	int numPrayers = [prayers count];
+	NSUInteger numPrayers = [prayers count];
 	for (int i=0; i<numPrayers; i++)
 	{
 		Prayer *currPrayer = [prayers objectAtIndex:i];
 		
-		rc = sqlite3_prepare_v2(db, [insertPrayer UTF8String], [insertPrayer lengthOfBytesUsingEncoding:NSUTF8StringEncoding], &insertStmt, NULL);
+		rc = sqlite3_prepare_v2(db, [insertPrayer UTF8String], (int)[insertPrayer lengthOfBytesUsingEncoding:NSUTF8StringEncoding], &insertStmt, NULL);
 		if (rc != SQLITE_OK)
 			NSLog(@"Problem preparing insert statement");
 		
-		rc = sqlite3_bind_int(insertStmt, 1, currPrayer.prayerId);
+        rc = sqlite3_bind_int64(insertStmt, 1, currPrayer.prayerId);
 		if (rc != SQLITE_OK)
 			NSLog(@"Problem binding prayer id");
 		
 		NSString *category = currPrayer.category;
-		rc = sqlite3_bind_text(insertStmt, 2, [category UTF8String], [category lengthOfBytesUsingEncoding:NSUTF8StringEncoding], SQLITE_STATIC);
+		rc = sqlite3_bind_text(insertStmt, 2, [category UTF8String], (int)[category lengthOfBytesUsingEncoding:NSUTF8StringEncoding], SQLITE_STATIC);
 		if (rc != SQLITE_OK)
 			NSLog(@"Problem binding category");
 		
 		NSString *prayerText = currPrayer.text;
-		rc = sqlite3_bind_text(insertStmt, 3, [prayerText UTF8String], [prayerText lengthOfBytesUsingEncoding:NSUTF8StringEncoding], SQLITE_STATIC);
+		rc = sqlite3_bind_text(insertStmt, 3, [prayerText UTF8String], (int)[prayerText lengthOfBytesUsingEncoding:NSUTF8StringEncoding], SQLITE_STATIC);
 		if (rc != SQLITE_OK)
 			NSLog(@"Problem binding prayer text");
 		
 		NSString *openingWords = currPrayer.title;
-		rc = sqlite3_bind_text(insertStmt, 4, [openingWords UTF8String], [openingWords lengthOfBytesUsingEncoding:NSUTF8StringEncoding], SQLITE_STATIC);
+		rc = sqlite3_bind_text(insertStmt, 4, [openingWords UTF8String], (int)[openingWords lengthOfBytesUsingEncoding:NSUTF8StringEncoding], SQLITE_STATIC);
 		if (rc != SQLITE_OK)
 			NSLog(@"Problem binding opening words");
 		
 		NSString *citation = currPrayer.citation;
-		rc = sqlite3_bind_text(insertStmt, 5, [citation UTF8String], [citation lengthOfBytesUsingEncoding:NSUTF8StringEncoding], SQLITE_STATIC);
+		rc = sqlite3_bind_text(insertStmt, 5, [citation UTF8String], (int)[citation lengthOfBytesUsingEncoding:NSUTF8StringEncoding], SQLITE_STATIC);
 		if (rc != SQLITE_OK)
 			NSLog(@"Problem binding citation");
 		
 		NSString *author = currPrayer.author;
-		rc = sqlite3_bind_text(insertStmt, 6, [author UTF8String], [author lengthOfBytesUsingEncoding:NSUTF8StringEncoding], SQLITE_STATIC);
+		rc = sqlite3_bind_text(insertStmt, 6, [author UTF8String], (int)[author lengthOfBytesUsingEncoding:NSUTF8StringEncoding], SQLITE_STATIC);
 		if (rc != SQLITE_OK)
 			NSLog(@"Problem binding author");
 		
 		NSString *language = currPrayer.language;
-		rc = sqlite3_bind_text(insertStmt, 7, [language UTF8String], [language lengthOfBytesUsingEncoding:NSUTF8StringEncoding], SQLITE_STATIC);
+		rc = sqlite3_bind_text(insertStmt, 7, [language UTF8String], (int)[language lengthOfBytesUsingEncoding:NSUTF8StringEncoding], SQLITE_STATIC);
 		if (rc != SQLITE_OK)
 			NSLog(@"Problem binding language");
 
@@ -441,7 +467,7 @@
 	
 	rc = sqlite3_prepare_v2(db,
 							[prayersQuery UTF8String],
-							[prayersQuery length],
+							(int)[prayersQuery length],
 							&prayersStmt,
 							0);
 	if (rc != SQLITE_OK)
@@ -450,7 +476,7 @@
 	while ((rc = sqlite3_step(prayersStmt)) == SQLITE_ROW)
 	{
 		long prayerId = sqlite3_column_int(prayersStmt, 0);
-		NSString *category;
+        NSString *category = NULL;
 		const unsigned char* categoryConst = sqlite3_column_text(prayersStmt, 1);
 		if (categoryConst != NULL)
 		{
@@ -461,7 +487,7 @@
 		//else
 		//			NSLog(@"Category for prayer %d is NULL", prayerId);
 		
-		NSString *prayerText;
+		NSString *prayerText = NULL;
 		const unsigned char* prayerTextConst = sqlite3_column_text(prayersStmt, 2);
 		if (prayerTextConst != NULL)
 		{
@@ -472,7 +498,7 @@
 		//else
 		//			NSLog(@"Prayer text for prayer %d is NULL", prayerId);
 		
-		NSString *openingWords;
+		NSString *openingWords = NULL;
 		const unsigned char* openingWordsConst = sqlite3_column_text(prayersStmt, 3);
 		if (openingWordsConst != NULL)
 		{
@@ -483,7 +509,7 @@
 		//else
 		//			NSLog(@"Opening words (%s) for prayer %d is NULL", prayerId);
 		
-		NSString *citation;
+		NSString *citation = NULL;
 		const unsigned char *citationConst = sqlite3_column_text(prayersStmt, 4);
 		if (citationConst != NULL)
 		{
@@ -494,7 +520,7 @@
 		//else
 		//			NSLog(@"Citation for prayer %d is NULL", prayerId);
 		
-		NSString *author;
+		NSString *author = NULL;
 		const unsigned char* authorConst = sqlite3_column_text(prayersStmt, 5);
 		if (authorConst != NULL)
 		{
@@ -505,10 +531,11 @@
 		//else
 		//			NSLog(@"Author for prayer %d is NULL", prayerId);
 		
-		NSString *language;
+		NSString *language = NULL;
 		const unsigned char* languageConst = sqlite3_column_text(prayersStmt, 6);
-		if (languageConst != NULL)
-			language = [NSString stringWithUTF8String:(const char*)languageConst];
+        if (languageConst != NULL) {
+            language = [NSString stringWithUTF8String:(const char*)languageConst];
+        }
 		//else
 		//			NSLog(@"Language (%s) for prayer %d is NULL", languageConst, prayerId);
 		
@@ -644,7 +671,7 @@
 
 - (void)tableViewSelectionDidChange:(NSNotification *)aNotification
 {
-	int selectedRow = [prayersTable selectedRow];
+	NSInteger selectedRow = [prayersTable selectedRow];
 	if (selectedRow == -1 || aNotification == nil)
 	{
 		[prayerIdTextField setStringValue:@""];
@@ -665,7 +692,7 @@
 	else
 	{
 		Prayer *selectedPrayer = [prayers objectAtIndex:selectedRow];
-		[prayerIdTextField setIntValue:selectedPrayer.prayerId];
+		[prayerIdTextField setIntValue:(int)selectedPrayer.prayerId];
 		[authorPopUpButton setEnabled:YES];
 		if (selectedPrayer.author)
 			[authorPopUpButton selectItemWithTitle:[selectedPrayer author]];
